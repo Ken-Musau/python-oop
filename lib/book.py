@@ -14,4 +14,7 @@ class Book:
         else:
             print("page_count must be an integer")
 
+    def turn_page(self):
+        print("Flipping the page...wow, you read fast!")
+
     page_count = property(get_page_count, set_get_page_count)
